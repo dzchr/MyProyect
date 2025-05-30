@@ -29,9 +29,12 @@ http://<IP-del-host>:8080
 👤 Usuario: nagiosadmin
 🔑 Contraseña: admin
 
-## 📁 Estructura del repositorio:
+## 📁 Estructura del repositorio
 
-<pre> ``` MyProyect/ ├── Dockerfile └── README.md ``` </pre>
+MyProyect/
+├── Dockerfile
+├── README.md
+└── .gitignore
 
 ## 📋 Requisitos:
 
