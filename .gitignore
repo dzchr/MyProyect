@@ -1,0 +1,26 @@
+# Archivos temporales
+*.log
+*.pid
+*.swp
+*.tmp
+
+# Archivos de Docker
+*.tar
+*.img
+
+# Contenedores y volúmenes locales (si los exportas)
+*.sock
+
+# Directorios ocultos del sistema
+.DS_Store
+Thumbs.db
+
+# Entornos de editor (VS Code, etc.)
+.vscode/
+.idea/
+*.code-workspace
+
+# Archivos del sistema de Linux/macOS
+ehthumbs.db
+Icon?
+
