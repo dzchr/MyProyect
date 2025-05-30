@@ -31,10 +31,12 @@ http://<IP-del-host>:8080
 
 ## 📁 Estructura del repositorio
 
+<pre>
 MyProyect/
 	├── Dockerfile
 	├── README.md
 	└── .gitignore
+</pre>
 
 ## 📋 Requisitos:
 
