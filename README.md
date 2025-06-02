@@ -14,17 +14,16 @@ Este proyecto contiene una imagen Docker construida para **Nagios Core 4.4.14**,
 ## 🛠️ Pasos para construir y ejecutar localmente
 
 ### 1. 🔁 Clona este repositorio
-```bash
 git clone https://github.com/dzchr/MyProyect.git
 cd MyProyect
 
-2. 🧱 Construye la imagen Docker
+### 2. 🧱 Construye la imagen Docker
 docker build -t nagios-core .
 
-3. ▶️ Ejecuta el contenedor
+### 3. ▶️ Ejecuta el contenedor
 docker run -d -p 8080:80 --name nagios-test nagios-core
 
-4. 🌍 Accede a la interfaz web
+### 4. 🌍 Accede a la interfaz web
 Navega a:
 http://<IP-de-tu-host>:8080
 
@@ -50,7 +49,7 @@ MyProyect/
 🌐 Acceso de red para visualizar interfaz
 
 ## 🎓 Autor
- Christopher Cabrera González
+### Christopher Cabrera González
 📧 chr.cabrera@duocuc.cl
 📘 Duoc UC – Ingeniería en Infraestructura y Plataformas Tecnológicas
 🧪 Evaluación Parcial 2 – Asignatura: Tecnologías de Virtualización (DIY7111)
