@@ -24,7 +24,7 @@
 - docker run -d -p 8080:80 --name nagios-test nagios-core
 
 ### 4. 🌍 Accede a la interfaz web
-- Navega a: http://"IP-de-tu-host":8080
+- Navega a: http://"IP-de-tu-host":8080/nagios
 
 ## 🔐 Credenciales por defecto
 
