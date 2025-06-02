@@ -1,57 +1,56 @@
-## 🚀 Nagios Core - Docker Image
+# 🚀 Nagios Core - Docker Image Personalizada
 
-Este proyecto contiene una imagen Docker construida paso a paso desde una imagen base (debian:bullseye) para compilar e instalar Nagios Core 4.4.14, con todas sus dependencias. Está diseñada para ser reutilizable, portable y desplegable en ambientes cloud como AWS ECS.
+Este proyecto contiene una imagen Docker construida para **Nagios Core 4.4.14**, utilizando una base Debian (`debian:12-slim`) y el método de compilación por etapas (multi-stage build). Está diseñada para ser **ligera, reutilizable y lista para producción**, incluyendo una configuración funcional de Apache2 y los plugins necesarios.
 
-## 📦 Contenido:
+## 📦 Características principales
 
-🏗️ Construcción de la imagen desde cero (multi-stage build)
-👤 Usuario y grupo Nagios configurado
-⚙️ Apache2 + PHP habilitado
-🌐 Acceso web sin necesidad de /nagios
-🔧 Puerto personalizado: 8080
+- 🏗️ **Compilación completa desde fuentes** con `make` y `configure`
+- 👤 **Usuarios y grupos personalizados** (`nagios`, `nagcmd`)
+- ⚙️ **Apache2 + PHP integrados** con CGI habilitado
+- 🌐 **Interfaz accesible directamente** desde `http://<IP>:8080`
+- 📂 **Estructura de volúmenes** definida para configuración y datos (`/opt/nagios/etc`, `/opt/nagios/var`)
+- 🔒 **Autenticación HTTP básica** ya configurada
 
-## 🛠️ Pasos para construir la imagen:
+## 🛠️ Pasos para construir y ejecutar localmente
 
-🔁 Clona el repositorio:
-Clona este repositorio con Git y accede al directorio de trabajo.
+### 1. 🔁 Clona este repositorio
+```bash
+git clone https://github.com/dzchr/MyProyect.git
+cd MyProyect
 
-🧱 Construye la imagen Docker:
+### 2. 🧱 Construye la imagen Docker
 docker build -t nagios-core .
 
-▶️ Ejecuta el contenedor:
-docker run -d -p 8080:8080 --name nagios-test nagios-core
+### 3. ▶️ Ejecuta el contenedor
+docker run -d -p 8080:80 --name nagios-test nagios-core
 
-🌍 Accede desde tu navegador:
-http://<IP-del-host>:8080
+### 4. 🌍 Accede a la interfaz web
+Navega a:
+http://<IP-de-tu-host>:8080
 
 ## 🔐 Credenciales por defecto
 
 👤 Usuario: nagiosadmin
-🔑 Contraseña: admin
+🔑 Contraseña: admin123
+
+Puedes modificar estas credenciales en el archivo htpasswd.users.
 
 ## 📁 Estructura del repositorio
-
 <pre>
 MyProyect/
-	├── Dockerfile
-	├── README.md
-	└── .gitignore
+    ├── Dockerfile
+    ├── README.md
+    └── .gitignore
 </pre>
 
-## 📋 Requisitos:
+## 📋 Requisitos
 
-🐳 Docker Engine instalado
-💻 Sistema compatible (Linux/macOS/WSL2)
-🌐 Red local o pública para acceso vía IP
+### 🐳 Docker Engine (v20 o superior)
+### 💻 Linux/macOS/WSL2 con terminal bash
+### 🌐 Acceso de red para visualizar interfaz
 
-## 🧠 Notas finales
-Esta imagen está lista para ser subida a un repositorio y desplegada en la nube. Permite acceder a Nagios directamente desde la IP en el puerto 8080.
-
-Puedes modificar las configuraciones adicionales en:
-/usr/local/nagios/etc/
-
-## 🎓 Autor:
-Christopher Cabrera González
+## 🎓 Autor
+### Christopher Cabrera González
 📧 chr.cabrera@duocuc.cl
-📚 Evaluación Parcial 2 - Tecnologías de Virtualización (DIY7111)
-
+📘 Duoc UC – Ingeniería en Infraestructura y Plataformas Tecnológicas
+🧪 Evaluación Parcial 2 – Asignatura: Tecnologías de Virtualización (DIY7111)
