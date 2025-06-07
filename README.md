@@ -7,7 +7,7 @@
 - 🏗️ **Compilación completa desde fuentes** con `make` y `configure`
 - 👤 **Usuarios y grupos personalizados** (`nagios`, `nagcmd`)
 - ⚙️ **Apache2 + PHP integrados** con CGI habilitado
-- 🌐 **Interfaz accesible directamente** desde `http://<IP>:8080`
+- 🌐 **Interfaz accesible directamente** desde `http://<IP>:8080/nagios`
 - 📂 **Estructura de volúmenes** definida para configuración y datos (`/opt/nagios/etc`, `/opt/nagios/var`)
 - 🔒 **Autenticación HTTP básica** ya configurada
 
