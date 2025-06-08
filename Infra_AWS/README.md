@@ -6,7 +6,7 @@ Este repositorio detalla el proceso de despliegue de una imagen personalizada de
 
 ## 📌 Diagrama de la Infraestructura
 
-![Diagrama Arquitectura AWS](./Diagrama_Arquitectura_AWS.jpg)
+[![Diagrama Arquitectura AWS](./Diagrama_Arquitectura_AWS.jpg)](https://github.com/dzchr/MyProyect/blob/main/Infra_AWS/Diagrama_Arquitectura_AWS.jpg)
 
 ---
 
