@@ -1,8 +1,4 @@
-## Diagrama de Infraestructura de AWS para la creación de Dockerfile de Nagios Core
-
-![image](https://github.com/user-attachments/assets/3acd7e8e-022f-4756-b8ce-ba86abe802ff)
-
-# 🚀 Implementación de Nagios Core en AWS con Docker y Fargate
+## 🚀 Implementación de Nagios Core en AWS con Docker y Fargate
 
 Este documento detalla el proceso de despliegue de una imagen personalizada de **Nagios Core** en **Amazon ECS (Fargate)**, con persistencia de datos mediante **EFS** y disponibilidad mediante un **Application Load Balancer (ALB)**. Se utiliza una imagen Docker propia construida y publicada desde un repositorio GitHub.
 
