@@ -49,7 +49,7 @@ MyProyect/
 
 ## 📌 Repositorio de Implementación en AWS
 
-### [https://github.com/dzchr/MyProyect/Infra_AWS](https://github.com/dzchr/MyProyect/Infra_AWS)
+### [[https://github.com/dzchr/MyProyect/Infra_AWS](https://github.com/dzchr/MyProyect/tree/main/Infra_AWS)]
 
 
 ## 🎓 Autor
