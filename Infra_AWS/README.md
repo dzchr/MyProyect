@@ -1,6 +1,6 @@
 ## 🚀 Implementación de Nagios Core en AWS con ECR y ECS "Fargate"
 
-Este documento detalla el proceso de despliegue de una imagen personalizada de **Nagios Core** en **Amazon ECS (Fargate)**, con persistencia de datos mediante **EFS** y disponibilidad mediante un **Application Load Balancer (ALB)**. Se utiliza una imagen Docker propia construida y publicada desde repositorio Principal en GitHub.
+Este Repo detalla el proceso de despliegue de una imagen personalizada de **Nagios Core** en **Amazon ECS (Fargate)**, con persistencia de datos mediante **EFS** y disponibilidad mediante un **Application Load Balancer (ALB)**. Se utiliza una imagen Docker propia construida y publicada desde repositorio Principal en GitHub.
 
 ---
 
