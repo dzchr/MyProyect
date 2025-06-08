@@ -47,6 +47,13 @@ MyProyect/
 - 💻 Linux/macOS/WSL2 con terminal bash
 - 🌐 Acceso de red para visualizar interfaz
 
+## 📌 Repositorio de Implementación en AWS 
+
+### [https://github.com/dzchr/MyProyect
+/Infra_AWS/MyProyect](https://github.com/dzchr/MyProyect
+/Infra_AWS/)
+darkzeth@darkzeth-VMware-Virtual-Platform:~/MyProyect/Infra_AWS$ 
+
 ## 🎓 Autor
 ### Christopher Cabrera González
 - 📧 chr.cabrera@duocuc.cl
